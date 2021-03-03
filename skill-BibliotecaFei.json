@@ -14,6 +14,9 @@
       "examples": [
         {
           "text": "aquisições"
+        },
+        {
+          "text": "trabalhos"
         }
       ],
       "description": ""
@@ -133,10 +136,19 @@
       "intent": "FichaCatalográfica",
       "examples": [
         {
+          "text": "como preencher ficha catalográfica"
+        },
+        {
           "text": "Ficha"
         },
         {
           "text": "Ficha Catalográfica"
+        },
+        {
+          "text": "preencher ficha"
+        },
+        {
+          "text": "quero preencher uma ficha catalográfica"
         }
       ],
       "description": ""
@@ -328,7 +340,34 @@
       "intent": "trabalhosacademicos",
       "examples": [
         {
-          "text": "trabalhos"
+          "text": "como combater o plágio?"
+        },
+        {
+          "text": "como elaborar meu trabalho academico?"
+        },
+        {
+          "text": "como fazer meu trabalho academico?"
+        },
+        {
+          "text": "como fazer uma ficha catalográfica?"
+        },
+        {
+          "text": "como proceder com meu trabalho academico?"
+        },
+        {
+          "text": "o que preciso saber pra fazer meu trabalho academico?"
+        },
+        {
+          "text": "quais as normas para um trabalho academico?"
+        },
+        {
+          "text": "qual o procedimento para a entrega de trabalhos academicos?"
+        },
+        {
+          "text": "quero fazer meu trabalho"
+        },
+        {
+          "text": "trabalho"
         },
         {
           "text": "trabalhos academicos"
@@ -368,6 +407,19 @@
     }
   ],
   "entities": [
+    {
+      "entity": "recursos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ficha catalografica",
+          "synonyms": [
+            "ficha"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
     {
       "entity": "sys-date",
       "values": []
@@ -659,6 +711,27 @@
     },
     {
       "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado por utilizar o assistente virtual da biblioteca FEI. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#sair",
+      "dialog_node": "node_1_1614792905245",
+      "previous_sibling": "node_6_1614791960507"
+    },
+    {
+      "type": "standard",
       "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
       "output": {
         "generic": [
@@ -788,6 +861,27 @@
     },
     {
       "type": "standard",
+      "title": "copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado por utilizar o assistente virtual da biblioteca FEI. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614224137080",
+      "conditions": "#sair",
+      "dialog_node": "node_2_1614792923581",
+      "previous_sibling": "node_10_1614785993831"
+    },
+    {
+      "type": "standard",
       "title": "copy 1 - copy 1 - copy 1",
       "output": {
         "generic": [
@@ -912,7 +1006,28 @@
       },
       "conditions": "anything_else",
       "dialog_node": "node_3_1614791733711",
-      "previous_sibling": "node_10_1614785993831"
+      "previous_sibling": "node_2_1614792923581"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado por utilizar o assistente virtual da biblioteca FEI. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#sair",
+      "dialog_node": "node_3_1614792943285",
+      "previous_sibling": "node_9_1614790743900"
     },
     {
       "type": "standard",
@@ -1413,7 +1528,7 @@
           {
             "values": [
               {
-                "text": "A biblioteca da FEI disponibiliza para seus usuários o sistema para elaboração de fichas catalográficas que foi desenvolvido pelo ICMC/USP e gentilmente cedido para ser adaptado às necessidades de sua comunidade acadêmica.\n\nA partir de outubro de 2015 a ficha catalográfica passa a ser elaborada pelo próprio usuário e deve ser impressa no verso da página/folha de rosto.\n\nÉ um elemento obrigatório em trabalhos acadêmicos e sua elaboração é feita com as informações fundamentais para a identificação do documento, entre elas: autor e orientador, título, total de folhas, assunto, palavras-chave, etc.\n\nDúvidas e sugestões podem ser enviadas através do email: bib_digital@fei.edu.br"
+                "text": "A biblioteca da FEI disponibiliza para seus usuários o sistema para elaboração de fichas catalográficas que foi desenvolvido pelo ICMC/USP e gentilmente cedido para ser adaptado às necessidades de sua comunidade acadêmica.\n\nA partir de outubro de 2015 a ficha catalográfica passa a ser elaborada pelo próprio usuário e deve ser impressa no verso da página/folha de rosto.\n\nÉ um elemento obrigatório em trabalhos acadêmicos e sua elaboração é feita com as informações fundamentais para a identificação do documento, entre elas: autor e orientador, título, total de folhas, assunto, palavras-chave, etc.\n\nDúvidas e sugestões podem ser enviadas através do email: bib_digital@fei.edu.br\n\n<a href=\"http://sofia.fei.edu.br/ficha/\">Clique aqui para elaborar sua Ficha Catalográfica</a>\n"
               }
             ],
             "response_type": "text",
@@ -1486,7 +1601,7 @@
       },
       "conditions": "anything_else",
       "dialog_node": "node_7_1614791791297",
-      "previous_sibling": "node_9_1614790743900"
+      "previous_sibling": "node_3_1614792943285"
     },
     {
       "type": "standard",
