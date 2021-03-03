@@ -1,0 +1,1854 @@
+{
+  "intents": [
+    {
+      "intent": "acessibilidade",
+      "examples": [
+        {
+          "text": "acessibilidade"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "aquisições",
+      "examples": [
+        {
+          "text": "aquisições"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bibliotecadigital",
+      "examples": [
+        {
+          "text": "biblioteca"
+        },
+        {
+          "text": "biblioteca digital"
+        },
+        {
+          "text": "digital"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bibliotecarias",
+      "examples": [
+        {
+          "text": "bibliotecarias"
+        },
+        {
+          "text": "fale"
+        },
+        {
+          "text": "fale com as bibliotecarias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bitly",
+      "examples": [
+        {
+          "text": "Bitly"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Capacitação",
+      "examples": [
+        {
+          "text": "capacitação"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ClasseLaTeXdaFEI",
+      "examples": [
+        {
+          "text": "Classe LaTeX da FEI"
+        },
+        {
+          "text": "LATEX"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CombateaoPlágio",
+      "examples": [
+        {
+          "text": "combate"
+        },
+        {
+          "text": "Combate ao Plágio"
+        },
+        {
+          "text": "Plagio"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "COMUT",
+      "examples": [
+        {
+          "text": "comut"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Consultaaoacervo",
+      "examples": [
+        {
+          "text": "acervo"
+        },
+        {
+          "text": "consulta"
+        },
+        {
+          "text": "consulta ao acervo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Emprestimo",
+      "examples": [
+        {
+          "text": "como fazer emprestimo"
+        },
+        {
+          "text": "emprestimo"
+        }
+      ],
+      "description": "emprestimo"
+    },
+    {
+      "intent": "FichaCatalográfica",
+      "examples": [
+        {
+          "text": "Ficha"
+        },
+        {
+          "text": "Ficha Catalográfica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fotos",
+      "examples": [
+        {
+          "text": "fotos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Guiadanovareformaortográfica",
+      "examples": [
+        {
+          "text": "Guia da nova reforma ortográfica"
+        },
+        {
+          "text": "reforma"
+        },
+        {
+          "text": "reforma ortografica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GuiaparaelaboraçãodetrabalhosacadêmicosdaFEI",
+      "examples": [
+        {
+          "text": "elaboração"
+        },
+        {
+          "text": "guia"
+        },
+        {
+          "text": "Guia para elaboração de trabalhos acadêmicos da FEI"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HoráriodeFuncionamento",
+      "examples": [
+        {
+          "text": "horário"
+        },
+        {
+          "text": "horário de funcionamento"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "MecanismoOnlineparaReferênciasMORE",
+      "examples": [
+        {
+          "text": "MECANISMO"
+        },
+        {
+          "text": "Mecanismo Online para Referências (MORE)"
+        },
+        {
+          "text": "MORE"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Mendeley",
+      "examples": [
+        {
+          "text": "Mendeley"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Orientaçãoparanormalizaçãodetrabalhosacadêmicos",
+      "examples": [
+        {
+          "text": "normalização"
+        },
+        {
+          "text": "orientação"
+        },
+        {
+          "text": "Orientação para normalização de trabalhos acadêmicos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ProcedimentoparaentregadeTrabalhosAcadêmicos",
+      "examples": [
+        {
+          "text": "Entrega de trabalhos"
+        },
+        {
+          "text": "Procedimento para entrega de Trabalhos Acadêmicos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Regulamento",
+      "examples": [
+        {
+          "text": "Qual o regulamento?"
+        },
+        {
+          "text": "Regulamento"
+        }
+      ],
+      "description": "Regulamento da Biblioteca"
+    },
+    {
+      "intent": "Renovação",
+      "examples": [
+        {
+          "text": "renovação"
+        }
+      ],
+      "description": "renovação"
+    },
+    {
+      "intent": "repositório",
+      "examples": [
+        {
+          "text": "repositório"
+        },
+        {
+          "text": "repositório fei"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Reserva",
+      "examples": [
+        {
+          "text": "reserva"
+        },
+        {
+          "text": "reservas de livros"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sair",
+      "examples": [
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "fim"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "sair"
+        },
+        {
+          "text": "tchau"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Serviços",
+      "examples": [
+        {
+          "text": "O que voces fazem?"
+        },
+        {
+          "text": "Quais os serviços da biblioteca?"
+        },
+        {
+          "text": "Serviços"
+        }
+      ],
+      "description": "Serviços da Biblioteca"
+    },
+    {
+      "intent": "trabalhosacademicos",
+      "examples": [
+        {
+          "text": "trabalhos"
+        },
+        {
+          "text": "trabalhos academicos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Voltar",
+      "examples": [
+        {
+          "text": "voltar"
+        },
+        {
+          "text": "volte"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "voltar2",
+      "examples": [
+        {
+          "text": "menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "voltar3",
+      "examples": [
+        {
+          "text": "anterior"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bem vindo(a) ao assistente virtual da Biblioteca FEI. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Temos uma variedade de opções, escolha uma por gentileza:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "- Serviços\n- Fotos\n- Consulta ao Acervo\n- Horário de Funcionamento\n- Repositório FEI\n- Trabalhos Acadêmicos\n- Regulamento\n- Biblioteca Digital\n- Acessibilidade\n- Aquisições\n- Fale com as Bibliotecárias"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As capacitações relacionadas abaixo têm como objetivo habilitar o usuário no uso das ferramentas e serviços oferecidos pela biblioteca:\n\nNormalização de trabalhos acadêmicos: noções gerais sobre a elaboração de trabalhos acadêmicos: estrutura do trabalho, elaboração de referências e citações.\n Pesquisa em bases de dados: apresentação das bases de dados disponíveis e orientações básicas quanto à pesquisa e processamento dos resultados obtidos.\nO serviço será ministrado:\n\nLocal: sala de treinamento da biblioteca\nHorários: terças-feiras às 14h e quintas-feiras às 20h\nCapacidade: até 10 inscritos\n\nClique aqui para realizar a inscrição.\n\nAtenção!\nA biblioteca disponibilizará certificado de participação.\nO serviço não possui nenhum custo e funciona durante todo o período letivo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Voltar\" para retornar ao menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614224137080",
+      "conditions": "#Capacitação",
+      "dialog_node": "node_10_1614785039171",
+      "previous_sibling": "node_9_1614784810141"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1614224137080",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_10_1614785993831",
+      "previous_sibling": "node_10_1614785039171"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Responsável pelas bibliotecas: Nilce Regina Antunes Marin, CRB-8/7455\n\nCampus São Bernardo do Campo\n(11) 4353-2900\n\nBibliotecárias\n\nAndrea: andreas@fei.edu.br\nCintia: cfernandes@fei.edu.br\nDenise: denises@fei.edu.br\nMárcia: mmorays@fei.edu.br\nSimone: ffessilva@fei.edu.br\n\n\nCampus São Paulo\n(11) 3274-5200\n\nBibliotecária\n\nPatrícia: pbraghin@fei.edu.br\nInformações Gerais: info_biblio@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#Bibliotecarias",
+      "dialog_node": "node_10_1614790835197",
+      "previous_sibling": "node_5_1614790450951"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1614790835197",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_10_1614790897195"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1614790942170",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_11_1614791025022"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reservas só poderão ser feitas caso todos os exemplares do título desejado estejam emprestados.\n\n1) Para efetuar a reserva de materiais acesse a página de Consulta ao acervo.\n2) Digite o termo para pesquisa\n\n3) Localize o título desejado e clique em reserva\n\n4) Preencha os campos:\n• “usuário na biblioteca” com o número de matrícula (RA) para os alunos e número de identificação funcional para os professores e colaboradores;\n• “senha” cadastrada no balcão de atendimento da biblioteca.\n\n5) Surgirá na tela a confirmação da reserva concluída; o usuário será avisado da chegada da reserva pelo e-mail atualizado em seu cadastro*.\n\n*O título reservado, ficará disponível por 48 horas contadas a partir do recebimento do e-mail, encerrado o período estipulado, a reserva passa automaticamente para o próximo da fila de espera."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Voltar\" para retornar ao menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614224137080",
+      "conditions": "#Reserva",
+      "dialog_node": "node_1_1614784630553",
+      "previous_sibling": "node_9_1614784548582"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1614784288606",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614224137080"
+      },
+      "conditions": "#Voltar",
+      "dialog_node": "node_1_1614785448263"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614784548582",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614224137080"
+      },
+      "conditions": "#Voltar",
+      "dialog_node": "node_1_1614785678426"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o <a href=\"https://repositorio.fei.edu.br/\">link</a> para mais informações"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#repositório",
+      "dialog_node": "node_1_1614786540610",
+      "previous_sibling": "node_4_1614786375489"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {},
+      "parent": "node_7_1614788217451",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_1_1614788457811"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614788700536",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_1_1614789402149"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614791072121",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_12_1614791243039"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614791960507",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_13_1614792095701"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614784630553",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614224137080"
+      },
+      "conditions": "#Voltar",
+      "dialog_node": "node_2_1614785702819"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614788468940",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_2_1614788494941"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://static.fei.edu.br/Arquivos/img/biblioteca/trabalhos-academicos.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#Orientaçãoparanormalizaçãodetrabalhosacadêmicos",
+      "dialog_node": "node_2_1614788540104",
+      "previous_sibling": "node_6_1614788468940"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614789413198",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_2_1614789688633"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614784810141",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614224137080"
+      },
+      "conditions": "#Voltar",
+      "dialog_node": "node_3_1614785716470"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1614787497923",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_3_1614787668120"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614788540104",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_3_1614788577167"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O guia substitui o Manual para apresentação formal de trabalhos acadêmicos. Elaborado de acordo com as normas vigentes da Associação Brasileira de Normas Técnicas (ABNT), traz um novo formato, além de novos exemplos com uma linguagem simples para facilitar a compreensão dos usuários.\n\nInformamos que o guia está disponível somente na versão eletrônica.\n\nO seu enfoque não é só a padronização disponibilizada através das normas estabelecidas, mas principalmente a qualidade dos trabalhos apresentados na instituição.\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/vestibular/22020/citacao_rev-2020.pdf\">Citação</a>\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/ta/estrutura_2020.pdf\">Estrutura</a>\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/ta/referencias_2020.pdf\">Referências</a>\n\nA biblioteca disponibiliza os tutoriais de configuração do Word e uma template do trabalho pronto, mais um recurso para ajudá-lo na estruturação do TCC.\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/template.docx\">Template do trabalho acadêmico</a>\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/templateiniciacaocientifica.docx\">Template dos trabalhos de iniciação científica</a>\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/templateplanodenegocios.docx\">Template do plano de negócios elaborado para o curso de administração</a>\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/paginacao.pdf\">Tutorial de paginação</a>\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/sumario.pdf\">Tutorial de sumário</a>\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/ilustracoes.pdf\">Tutorial de lista de ilustrações</a>\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/tabelas.pdf\">Tutorial de lista de tabelas</a>\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/conversorpdf.pdf\">Tutorial para salvar arquivo como PDF/A</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#GuiaparaelaboraçãodetrabalhosacadêmicosdaFEI",
+      "dialog_node": "node_3_1614788700536",
+      "previous_sibling": "node_2_1614788540104"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614789728412",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_3_1614789789779"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi. Poderia escrever novamente?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614224137080",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614224137080"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1614791733711",
+      "previous_sibling": "node_10_1614785993831"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1614785039171",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614224137080"
+      },
+      "conditions": "#Voltar",
+      "dialog_node": "node_4_1614785725180"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse a <a href=\"http://sofia.fei.edu.br/pergamum/biblioteca/index.php\">página</a> para acessar o acervo da Biblioteca FEI. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#Consultaaoacervo",
+      "dialog_node": "node_4_1614786153548",
+      "previous_sibling": "node_6_1614784055285"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Horário de Funcionamento:\n\nPeríodo Letivo:\n\nDe Segunda a Sexta-Feira:\n\nCampus SBC das 08h00 às 21h45\nCampus SP das 08h00 às 21h15\n\nAos Sábados:\n\nCampus SBC das 09h30 às 13h15\nCampus SP - Fechada\n\nHorário Durante as Férias:\n\nDe Segunda a Sexta-Feira:\n\nCampus SBC das 08h00 às 19h45\nCampus SP 08h00 às 17h45"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#HoráriodeFuncionamento",
+      "dialog_node": "node_4_1614786375489",
+      "previous_sibling": "node_4_1614786153548"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614789868964",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_4_1614789917727"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca do Centro Universitário FEI firmou uma parceria em 2019 com a Fundação Dorina Nowill para Cegos, através da Rede Nacional de Leitura Inclusiva, que tem como objetivo facilitar o acesso da pessoa com deficiência visual ao mundo da leitura por meio da mobilização e estreitamento da relação entre educadores, mediadores de leitura, governos, agentes de bibliotecas e de organizações sociais, incentivando a disseminação da leitura inclusiva pelo Brasil.\n\nA Fundação Dorina Nowill para Cegos é uma organização sem fins lucrativos que há mais de 70 anos se dedica à inclusão de crianças, jovens e adultos cegos e com baixa visão por meio de atendimento especializado e da produção e distribuição de livros acessíveis em braile, fonte ampliada e braile concomitantes, falados e digitais acessíveis, distribuídos para pessoas com deficiência visual e para escolas, bibliotecas e organizações de todo o Brasil.\n\n<a href=\"http://www.dorinateca.org.br/\">Conheça a página da Dorinateca</a>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#acessibilidade",
+      "dialog_node": "node_4_1614790942170",
+      "previous_sibling": "node_10_1614790835197"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614784055285",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_5_1614786160743"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bitly é um dos mais famosos gerenciadores e encurtadores de URL da internet. Confira!\n\n <a href=\"https://bitly.com/\">Clique Aqui</a> para acessar o bitly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#Bitly",
+      "dialog_node": "node_5_1614789928250",
+      "previous_sibling": "node_6_1614789868964"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1614789928250",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_5_1614789986730"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Saiba o que mudou na ortografia brasileira.\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/guia_reforma_ortografica_cp.pdf\">Clique Aqui</a> para acessar o manual para acessar o guia da nova reforma ortográfica."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#Guiadanovareformaortográfica",
+      "dialog_node": "node_5_1614790017849",
+      "previous_sibling": "node_5_1614789928250"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado por utilizar o assistente virtual da biblioteca FEI. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#sair",
+      "dialog_node": "node_5_1614790263854",
+      "previous_sibling": "node_9_1614791585613"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "• <a href=\"http://www.periodicos.capes.gov.br/\">Portal de periódicos CAPES</a>\n• <a href=\"https://search.ebscohost.com/login.aspx\">EBSCOhost</a>\n• <a href=\"https://issuu.com/centrouniversitariofei/stacks/157ce1a2b81d4585a98d7ee942fb529e\">Cardernos da FEI</a>\n• <a href=\"https://issuu.com/centrouniversitariofei/stacks/6ac7e6c5c5bb46999d293427958b6755\">Revista Domínio FEI</a>\n• <a href=\"https://feiedu-my.sharepoint.com/:x:/g/personal/guchampel_fei_edu_br/ETJglOln2lFJt6RnaTQ0CpoBuV0K6QQJ-TIoIhcaXJWE8g?e=FaCUd0\">Acesso aos E-Books Gratuitos</a>\n• <a href=\"https://search.ebscohost.com/Community.aspx?authtype=ip&ugt=62E771363C0635173756353632553E4223E369D36413679368E322E332133603&stsug=AkVJFwqdqhWpmXVGtTph_c14-awPFdAbiQdMkHk-fT7L3OaXsG3bwWXi8zzQUXNLcVzfFS66KQzVZgXAxuL9DNZywlyfWPHzfWLIO1l85cwZ9ey5EsuUT6OmLzeYPf_ufzVuEfu_vchbXtCeVSotZUse3ktYq8nV_j8zjt9IRlN3-E0&IsAdminMobile=N&encid=22D731163C6635973766353632053C87331379C374C377C378C372C372C376C33013&selectServicesToken=A0WABSIykQvP4jjfoAX1XHKOgNG3nJCoQTo5Lxd6ERZ-j_CSFcXqVbwrNJOuSUqLCZ5RYq3MhuZFZQM4ylwrk2olMZB6ZWa35RjhgklnLxupKPW-rufh6uYaVUOWoDt2RWqemFdqItFOPCZjdOLNa0EivFxKCLzhElOSuLoF_AEosbdqYT78CHOjPEuopMZgbqx81cZ_ih2qM9UdMvTGcnL3tPDZjaKHJPJK_I22h1kezWtVS2QexmOIbnfQhQ5x78MaQpqQA_X1h4tdN9yLqxPrtdhxyDGuC9t2\">Acesso aos E-Books EBSCO</a>\n• <a href=\"https://fei.edu.br/biblioteca/gedweb.pdf\">Tutorial</a>\n• <a href=\"https://www.gedweb.com.br/fei\">Acesso as Normas ABNT(GedWeb)</a>\n• <a href=\"https://fei.edu.br/sites/tutorial-microsoft/\">Convênio Microsoft Azure Dev Tools</a>\n• <a href=\"http://repositorio.ausjal.org/\">Repositório AUSJAL</a>\n• <a href=\"http://bdtd.ibict.br/\">Biblioteca Digital IBICT</a>\n• <a href=\"https://portal.fei.edu.br/Pagina/biblioteca#\">Torre de CDs</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#Bibliotecadigital",
+      "dialog_node": "node_5_1614790450951",
+      "previous_sibling": "node_8_1614786763229"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O regulamento tem como principal objetivo estabelecer normas e procedimentos dos serviços adotados prestados pela Biblioteca.\n\nInformações Gerais\nSomente os usuários com cadastro biométrico poderão fazer uso do serviço de empréstimos de materiais;\n O usuário deverá informar quaisquer anormalidades notadas em materiais emprestados ou consultados, sob pena de tornar-se responsável por eles;\n Os materiais consultados não devem ser recolocados nas estantes, e sim deixados sobre a mesa ou nas prateleiras das pilastras;\nA biblioteca dispõe de mesas para estudo individual;\n É de única, total e exclusiva responsabilidade do usuário a manutenção e o cuidado pelos objetos de uso pessoal deixados nas dependências da biblioteca. Recomenda-se levar todos os seus pertences ao deixar as instalações da biblioteca;\n Manter o silêncio no espaço da biblioteca é indispensável para se obter o ambiente adequado ao estudo;\nÉ vetado o uso do telefone celular e o consumo de alimentos e bebidas nas dependências da biblioteca;\nNos meses de férias escolares o horário de funcionamento da biblioteca será diferenciado;\n Não será permitida a entrada de pessoas com pastas, fichários, bolsas, sacolas, pacotes, etc. Esses materiais deverão ser deixados no guarda-volumes, retirando uma chave no balcão de atendimento. A chave deverá ser devolvida no mesmo dia para que o usuário não fique suspenso por um período de 15 (quinze) dias;\n O e-mail, é apenas, uma forma de lembrar o usuário da data de devolução do material, que é uma responsabilidade exclusiva dele, portanto, o não envio da mensagem, independente do motivo, não o isenta do pagamento da multa;\n A justificativa de atraso na entrega do material, por impossibilidade de renovação online, não é aceita, pois caso isso ocorra, o usuário deverá entrar em contato imediatamente, para que o problema seja solucionado;\n Materiais com datas de devolução vencidas deverão ser devolvidos no balcão de atendimento para pagamento da multa, uma vez que o sistema não renova materiais com data de devolução em atraso;\n Ao entrar na Biblioteca com material emprestado, o usuário deverá registrar a entrada e, ao sair, registrar a saída;\n Constitui responsabilidade do usuário conservar limpo e organizado os locais de estudos, o acervo, as estações multimídia e todo o ambiente de apoio, como mobiliário e equipamentos.\nInscrições\nPara utilizar os serviços oferecidos pela biblioteca o usuário precisa efetuar seu cadastro biométrico no balcão de atendimento.\n\nEmpréstimos\n O empréstimo de materiais é reservado a alunos, professores, pesquisadores e funcionários do Centro Universitário FEI;\n O empréstimo é pessoal, não sendo permitida a retirada de materiais em nome de outro usuário;\nEnciclopédias, dicionários, periódicos e obras raras são consideradas “Obras Não Circulantes”;\n O usuário somente poderá fazer a reserva de materiais via Catálogo online; o material reservado ficará à disposição do interessado por 48 (quarenta e oito) horas consecutivas da data do recebimento do e-mail, independentemente do horário do funcionamento da biblioteca;\n Os materiais em atraso não poderão ter seus prazos de devolução prorrogados antes da regularização da situação;\n Para os materiais devolvidos fora dos prazos estipulados serão cobradas multas por dias úteis e por material;\n O usuário deverá indenizar a biblioteca em caso de extravio ou danos aos materiais emprestados, sob forma de substituição dos mesmos;\n A devolução dos materiais poderá ser efetuada nos dois campi (SBC/SP) independente do campus que o usuário estuda;\n A renovação só será feita via Catálogo online, até 06 (seis) vezes, desde que o material não esteja atrasado ou reservado;\nAo usuário não será permitida a reserva de materiais que se encontram em seu poder;\nNão será permitida a reserva de materiais que não se encontram emprestados (reserva antecipada);\nO usuário é responsável pela boa utilização e zelo dos equipamentos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#Regulamento",
+      "dialog_node": "node_6_1614784055285",
+      "previous_sibling": "node_9_1614224137080"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1614786153548",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_6_1614786329136"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca do Centro Universitário FEI, por recomendação da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), divulga ao seu público um texto informativo, com intuito de coibir o plágio nas produções acadêmicas desenvolvidas na IES.\n\nPara auxiliá-los segue opções gratuitas de detecção de plágio:\n\n\n<a href=\"http://www.plagiarismcombat.com/\">Farejador de Plágio</a>\n<a href=\"http://www.plagium.com/\">Plagium</a>\n<a href=\"http://plagiarisma.net/\">Plagiarisma</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#CombateaoPlágio",
+      "dialog_node": "node_6_1614788468940",
+      "previous_sibling": "node_7_1614788217451"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MORE é uma ferramenta gratuita e fácil de usar, que produz automaticamente citações no texto e referências no formato ABNT.\n\n<a href=\"http://www.more.ufsc.br/\">Clique Aqui</a> para acessar o MORE."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#MecanismoOnlineparaReferênciasMORE",
+      "dialog_node": "node_6_1614789728412",
+      "previous_sibling": "node_9_1614789413198"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mendeley\nO Mendeley é considerado uma rede social acadêmica que conecta pesquisadores e permite gerenciar referências, buscar, arquivar e compartilhar documentos.\n\n<a href=\"https://www.mendeley.com/reference-management/reference-manager\">Clique Aqui</a> para acessar o Mendeley."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#Mendeley",
+      "dialog_node": "node_6_1614789868964",
+      "previous_sibling": "node_6_1614789728412"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1614790017849",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "#voltar3",
+      "dialog_node": "node_6_1614790073291"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/sbc/sbc1.jpg",
+            "response_type": "image"
+          },
+          {
+            "source": "https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/sbc/sbc2.jpg",
+            "response_type": "image"
+          },
+          {
+            "source": "https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/sbc/sbc3.jpg",
+            "response_type": "image"
+          },
+          {
+            "source": "https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/sbc/sbc4.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#fotos",
+      "dialog_node": "node_6_1614791960507",
+      "previous_sibling": "node_9_1614791072121"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1614786375489",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_7_1614786498496"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca da FEI disponibiliza para seus usuários o sistema para elaboração de fichas catalográficas que foi desenvolvido pelo ICMC/USP e gentilmente cedido para ser adaptado às necessidades de sua comunidade acadêmica.\n\nA partir de outubro de 2015 a ficha catalográfica passa a ser elaborada pelo próprio usuário e deve ser impressa no verso da página/folha de rosto.\n\nÉ um elemento obrigatório em trabalhos acadêmicos e sua elaboração é feita com as informações fundamentais para a identificação do documento, entre elas: autor e orientador, título, total de folhas, assunto, palavras-chave, etc.\n\nDúvidas e sugestões podem ser enviadas através do email: bib_digital@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#FichaCatalográfica",
+      "dialog_node": "node_7_1614787497923"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os trabalhos acadêmicos devem ser entregues de acordo com os procedimentos da secretaria do curso. Cabe ao orientador, juntamente com a secretaria, definir quais trabalhos serão entregues, assim como, efetuar a entrega na biblioteca.\n\nAlguns procedimentos são obrigatórios para que essa entrega seja realizada:\na) o trabalho acadêmico deve ser normalizado de acordo com as orientações do Guia para Elaboração de Trabalhos Acadêmicos da FEI;\nb) uma cópia impressa em capa dura na cor preta e letras douradas (Monografias e TCCs) ou na cor azul-marinho e letras douradas (Teses e Dissertações);\n- uma mídia (CD ou DVD) contendo somente o PDF/A para as monografias e TCCs;\n- uma cópia da versão final da dissertação ou tese no formato PDF/A encaminhada para o e-mail:\nbib.dissertacoes_teses@fei.edu.br;\n- termo de autorização para a publicação eletrônica preenchido e assinado por todos os autores do trabalho;\nc) a entrega na biblioteca deverá ser feita pelo orientador ou pela secretaria do curso. A biblioteca não aceita trabalhos entregues diretamente pelos alunos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#ProcedimentoparaentregadeTrabalhosAcadêmicos",
+      "dialog_node": "node_7_1614788217451",
+      "previous_sibling": "node_7_1614787497923"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi. Poderia escrever novamente?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1614786763229"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1614791791297",
+      "previous_sibling": "node_9_1614790743900"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614786540610",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_8_1614786585620"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entre uma Opção:"
+              },
+              {
+                "text": "- Ficha Catalográfica"
+              },
+              {
+                "text": "- Procedimento para entrega de Trabalhos Acadêmicos"
+              },
+              {
+                "text": "- Combate ao Plágio"
+              },
+              {
+                "text": "- Orientação para normalização de trabalhos acadêmicos"
+              },
+              {
+                "text": "- Guia para elaboração de trabalhos acadêmicos da FEI"
+              },
+              {
+                "text": "- Classe LaTeX da FEI"
+              },
+              {
+                "text": "- Mecanismo Online para Referências (MORE)"
+              },
+              {
+                "text": "- Mendeley"
+              },
+              {
+                "text": "- Bitly"
+              },
+              {
+                "text": "- Guia da nova reforma ortográfica"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#trabalhosacademicos",
+      "dialog_node": "node_8_1614786763229",
+      "previous_sibling": "node_1_1614786540610"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1614790450951",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_8_1614790733006"
+    },
+    {
+      "type": "frame",
+      "title": "RecebeSolicitaçãoServiço",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos uma variedade de serviços. Qual você deseja? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Empréstimo"
+              },
+              {
+                "text": "Renovação"
+              },
+              {
+                "text": "Reserva"
+              },
+              {
+                "text": "COMUT"
+              },
+              {
+                "text": "Capacitação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#Serviços",
+      "dialog_node": "node_9_1614224137080"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca oferece aos seus usuários o serviço de empréstimos de materiais pertencentes ao acervo, o que consiste nas retiradas dos materiais para uso fora de suas dependências. Qualquer débito com a biblioteca (atraso na devolução, multas pendentes, etc.) ocasiona na suspensão do direito de empréstimos de materiais.\n\n*Obras de referência (dicionários, enciclopédias, etc.), periódicos (jornais e revistas) e normas técnicas não circulam. No campus São Bernardo é possível emprestar, por um dia, dicionários em épocas de provas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Voltar\" para retornar ao menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614224137080",
+      "conditions": "#Emprestimo",
+      "dialog_node": "node_9_1614784288606"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os materiais podem ser renovados através do site da biblioteca pelo próprio usuário por 6 (seis) vezes consecutivas, desde que não possuam reservas, ou estejam, em atraso.\n\n1) Para efetuar a renovação de materiais emprestados, entre em “Acesso Usuário”* ou se preferir, baixe o aplicativo na Apple Store ou no Google Play pelo nome “Portal FEI”.\n\n2) Preencha os campos:\n• “usuário na biblioteca” com o número de matrícula (RA) para os alunos e número de identificação funcional para os professores e colaboradores;\n• “senha” cadastrada no balcão de atendimento da biblioteca.\n3) Clique em renovar.\n\n4) Em caso de mais de um empréstimo;\n\n5) Aponte para \"Empréstimo\" e clique em \"Renovação\";\n\n6) Selecione todos os materiais e clique em \"Gravar\";\n\n7) Surgirá na tela a confirmação de renovação com nova data de devolução."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Voltar\" para retornar ao menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614224137080",
+      "conditions": "#Renovação",
+      "dialog_node": "node_9_1614784548582",
+      "previous_sibling": "node_9_1614784288606"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O serviço de Comutação Bibliográfica (COMUT) oferecido pelo Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT), permite a obtenção de cópias de documento técnico-científicos (artigos de periódicos) disponíveis nos acervos das principais bibliotecas brasileiras. Através do COMUT é possível obter artigos não encontrados na Biblioteca do Centro Universitário FEI.\n\nÉ um serviço pago e seu custo é de R$ 1,82 (cada 5 páginas), valor estipulado pelo IBICT e que deverá ser pago pelo usuário que solicitar o serviço. Atenção, antes de solicitar o seu pedido de comutação, verifique se o artigo não se encontra disponível gratuitamente na internet ou nas Bases de Dados disponíveis na página da biblioteca.\n\nFazer o login com usuário e senha cadastrados na biblioteca. Clicar em solicitações e selecionar COMUT.\nAcesse o <a href=\"http://sofia.fei.edu.br/pergamum/biblioteca_s/php/login_usu.php?flag=index.php\">link</a> para solicitar seu artigo via COMUT. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Voltar\" para retornar ao menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614224137080",
+      "conditions": "#COMUT",
+      "dialog_node": "node_9_1614784810141",
+      "previous_sibling": "node_1_1614784630553"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A classe LaTeX da FEI é um arquivo de formatação de trabalhos acadêmicos para usuários de LaTeX, de acordo com as normas de formatação do Centro Universitário FEI. Ela está disponível nas principais distribuições de LaTeX (<a href=\"https://miktex.org/\">MikTeX</a> no Windows, <a href=\"http://www.tug.org/mactex/\">MacTeX</a> no MacOS e <a href=\"https://www.tug.org/texlive/\">TeX Live</a> no Linux), possui um <a href=\"http://mirrors.ctan.org/macros/latex/contrib/fei/fei.pdf\">manual de utilização</a> em PDF e um <a href=\"http://mirrors.ctan.org/macros/latex/contrib/fei/fei-template.tex\">template</a> para ajudar usuários a iniciar seus trabalhos acadêmicos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para voltar ao menu anterior, digite \"Anterior\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "conditions": "#ClasseLaTeXdaFEI",
+      "dialog_node": "node_9_1614789413198",
+      "previous_sibling": "node_3_1614788700536"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614786763229",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#voltar2",
+      "dialog_node": "node_9_1614790743900",
+      "previous_sibling": "node_5_1614790017849"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/plano_contigencia.pdf\">Plano de Contingência</a>\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/politica_desenvovimento.pdf\">Política de Desenvolvimento de Coleções</a>\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/aquisicao/formulario_pedido_livros.zip\">Formulário para solicitar a bibliografia recomendada</a>\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/img/reitoria/novasaquisic%CC%A7oes2019segundosemestre.pdf\">Boletim informativo. v.1, n. 2, 2019.</a>\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/aquisicao/procedimentos.pdf\">Procedimentos para Recebimento de Doações</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Responda \"Menu\" para acessar o menu anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "#aquisições",
+      "dialog_node": "node_9_1614791072121",
+      "previous_sibling": "node_4_1614790942170"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi. Poderia escrever novamente?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1614791585613",
+      "previous_sibling": "Bem-vindo"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "BibliotecaFei",
+  "language": "pt-br",
+  "description": ""
+}
